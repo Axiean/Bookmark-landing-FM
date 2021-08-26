@@ -1,0 +1,38 @@
+#header {
+  width: 100%;
+  height: max-content;
+  padding-top: 8vh;
+}
+#headerContainer {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo {
+}
+#navbar {
+}
+#navbar ul {
+}
+#navbar ul .navItems {
+  display: inline-block;
+  margin-left: 5vw;
+  list-style-type: none;
+}
+#navbar ul .navItems a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.111vw;
+  color: black;
+  transition: all ease-in-out 0.2s;
+}
+#navbar ul .navItems a:hover {
+  color: hsl(0, 94%, 66%);
+}
+#loginBTN {
+  display: inline-block;
+  margin-left: 5vw;
+}
