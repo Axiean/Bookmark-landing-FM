@@ -1,2 +1,47 @@
 #hero {
+  width: 100%;
+  padding-top: 10vw;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+}
+#hero_info_box {
+  display: inline-block;
+  margin-left: 7vw;
+  width: 40%;
+  height: fit-content;
+}
+#hero_info_box h1 {
+  font-size: 3.5vw;
+  color: rgb(31, 31, 31);
+}
+#hero_info_box p {
+  margin-top: 20px;
+  font-size: 1.2vw;
+  color: rgb(68, 68, 68);
+  line-height: 1.6vw;
+}
+#hero_info_box #hero_btns {
+  margin-top: 20px;
+}
+#hero_pic_box {
+  position: relative;
+  display: inline-block;
+  height: fit-content;
+}
+#hero_pic_box img {
+  position: relative;
+  bottom: 5vw;
+  right: 2vw;
+  width: 45.839vw;
+}
+#hero_pic_box #hero_pic_bg {
+  background-color: hsl(231, 69%, 60%);
+  width: 34vw;
+  height: 20vw;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  border-radius: 100vw 0 0 100vw;
+  z-index: -1;
 }
