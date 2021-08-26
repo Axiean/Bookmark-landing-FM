@@ -1,11 +1,10 @@
 #feature_box {
   width: 100%;
-  background-color: rgb(175, 175, 175);
-  height: 600px;
+  height: fit-content;
+  margin-top: 4vw;
 }
 #radiobtn_box {
   width: 60vw;
-  background-color: burlywood;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -15,21 +14,23 @@
   display: none;
 }
 #feature_box #radiobtn_box input:checked + label {
-  color: aquamarine;
+  color: hsl(0, 94%, 66%);
+  font-weight: 500;
+  border-bottom: 3px solid hsl(0, 94%, 66%);
 }
 #feature_box #radiobtn_box label {
   padding: 1vw 0;
   text-align: center;
   width: 33%;
   color: rgb(88, 88, 88);
-  transition: all ease-in-out 0.2s;
+  transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) ease-in-out 0.2s;
   cursor: pointer;
+  font-size: 1.111vw;
   /* border-bottom: 3px solid red; */
 }
 #feature_box #features_container {
   width: 100%;
   height: fit-content;
-  background-color: rgb(204, 222, 223);
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
@@ -39,7 +40,7 @@
 }
 #feature_info {
   width: 40vw;
-  background-color: aquamarine;
+  height: fit-content;
 }
 #feature_info h2 {
   font-size: 3vw;

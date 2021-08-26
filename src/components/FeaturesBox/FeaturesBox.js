@@ -2,12 +2,52 @@ import React, { useState } from "react";
 import FPic1 from "../../images/illustration-features-tab-1.svg";
 import FPic2 from "../../images/illustration-features-tab-2.svg";
 import FPic3 from "../../images/illustration-features-tab-3.svg";
+import Fade from "react-reveal/Fade";
 import { Button } from "../Button";
 import "./FeatureBox.css";
 function FeaturesBox() {
   const [pic, setPic] = useState(FPic2);
+
   const picHandler = (e) => {
     setPic(e.target.id);
+  };
+
+  var title = "";
+  var para = "";
+  switch (pic) {
+    case FPic1:
+      title = "Simple Bookmarking";
+      para =
+        "This application easy in using. All you need is to insert your‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’values. Also you can click the button to copy result.";
+      break;
+    case FPic2:
+      title = "Intelligent Search";
+      para =
+        "This application easy in using. All you need is to insert your‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’values. Also you can click the button to copy result.";
+      break;
+    case FPic3:
+      title = "Share your Bookmarks";
+      para =
+        " All you need is to insert your‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’values. Also you can click the button to copy result.";
+      break;
+    default:
+      title = "hi";
+  }
+  //  add this fun to render Fade,  each time chnage the  radio btn
+  const FadeReveal = () => {
+    return (
+      <Fade>
+        <div id="features_container">
+          <img id="feature_pic" src={pic}></img>
+
+          <div id="feature_info">
+            <h2>{title}</h2>
+            <p>{para}</p>
+            <Button id="feature_btn">More Info</Button>
+          </div>
+        </div>{" "}
+      </Fade>
+    );
   };
 
   return (
@@ -27,18 +67,7 @@ function FeaturesBox() {
           Easy Sharing
         </label>
       </div>
-      <div id="features_container">
-        <img id="feature_pic" src={pic}></img>
-        <div id="feature_info">
-          <h2>Intelligent Search</h2>
-          <p>
-            This application easy in using. All you need is to insert your
-            ‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’
-            values. Also you can click the button to copy result.
-          </p>
-          <Button id="feature_btn">More Info</Button>
-        </div>
-      </div>
+      <FadeReveal />
     </div>
   );
 }
