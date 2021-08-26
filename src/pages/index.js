@@ -1,8 +1,13 @@
 import React from "react";
 import { Button } from "../components/Button";
+import DownloadCard from "../components/DownloadCards/DownloadCard";
 import FeaturesBox from "../components/FeaturesBox/FeaturesBox";
 import Header from "../components/Header/Header";
 import HeroPic from "../images/illustration-hero.svg";
+import Chrome from "../images/logo-chrome.svg";
+import Firefox from "../images/logo-firefox.svg";
+import Opera from "../images/logo-opera.svg";
+
 import "../styles/Home.css";
 function Home() {
   return (
@@ -43,6 +48,26 @@ function Home() {
           ‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’
           values. Also you can click the button to copy result.
         </p>
+        <div id="cards_box">
+          <DownloadCard
+            id="card1"
+            source={Chrome}
+            title="Add to Chrome"
+            des="minimum version 9.4"
+          />
+          <DownloadCard
+            id="card2"
+            source={Firefox}
+            title="Add to Firefox"
+            des="minimum version 9"
+          />
+          <DownloadCard
+            id="card3"
+            source={Opera}
+            title="Add to Opera"
+            des="minimum version 6.8"
+          />
+        </div>
       </section>
       <h1 style={{ fontSize: "60px", textAlign: "center" }}>
         Still Coding...!
