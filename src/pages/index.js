@@ -25,6 +25,18 @@ function Home() {
           <div id="hero_pic_bg"></div>
         </div>
       </section>
+      <section id="features">
+        <h2 id="features_title"> Features </h2>
+        <p id="features_des">
+          This application easy in using. All you need is to insert your
+          ‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’
+          values. Also you can click the button to copy result.
+        </p>
+        <div id="features_box"></div>
+      </section>
+      <h1 style={{ fontSize: "60px", textAlign: "center" }}>
+        Still Coding...!
+      </h1>
     </div>
   );
 }

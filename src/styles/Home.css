@@ -58,3 +58,22 @@
   border-radius: 100vw 0 0 100vw;
   z-index: -1;
 }
+#features {
+  width: 100%;
+  height: fit-content;
+  background-color: aqua;
+  text-align: center;
+}
+#features #features_title {
+  font-size: 2.3vw;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+}
+#features #features_des {
+  width: 40%;
+  font-size: 1.2vw;
+  color: rgb(110, 110, 110);
+  line-height: 1.6vw;
+  margin: auto;
+  margin-top: 2vw;
+}
