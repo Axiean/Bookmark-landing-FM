@@ -16,8 +16,8 @@ function Home() {
             values. Also you can click the button to copy result.
           </p>
           <div id="hero_btns">
-            <Button>Get it on Chrome</Button>
-            <Button>Get it on Firefox</Button>
+            <Button hero>Get it on Chrome</Button>
+            <Button id="btn2">Get it on Firefox</Button>
           </div>
         </div>
         <div id="hero_pic_box">

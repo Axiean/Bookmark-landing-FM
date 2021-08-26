@@ -24,6 +24,19 @@
 #hero_info_box #hero_btns {
   margin-top: 20px;
 }
+#hero_info_box #hero_btns #btn2 {
+  margin-left: 1.5vw;
+  background-color: aliceblue;
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(128, 128, 128);
+  font-weight: 500;
+  cursor: pointer;
+}
+#hero_info_box #hero_btns #btn2:hover {
+  border-color: rgb(104, 104, 104);
+  color: rgb(66, 66, 66);
+  background: inherit;
+}
 #hero_pic_box {
   position: relative;
   display: inline-block;
