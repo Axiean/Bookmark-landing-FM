@@ -36,7 +36,14 @@ function Home() {
         {/* <div id="features_box"></div> */}
         <FeaturesBox />
       </section>
-
+      <section id="downloads">
+        <h2 id="downloads_title"> Download the estension </h2>
+        <p id="downloads_des">
+          This application easy in using. All you need is to insert your
+          ‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’
+          values. Also you can click the button to copy result.
+        </p>
+      </section>
       <h1 style={{ fontSize: "60px", textAlign: "center" }}>
         Still Coding...!
       </h1>
