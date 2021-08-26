@@ -59,7 +59,13 @@ function FeaturesBox() {
         <label id={FPic1} onClick={picHandler} htmlFor="simple">
           Simple Bookmarking
         </label>
-        <input id="speady" value="speady" type="radio" name="feature_radio" />
+        <input
+          defaultChecked
+          id="speady"
+          value="speady"
+          type="radio"
+          name="feature_radio"
+        />
         <label id={FPic2} onClick={picHandler} htmlFor="speady">
           {" "}
           Speady Searching{" "}
