@@ -43,7 +43,9 @@ function FeaturesBox() {
           <div id="feature_info">
             <h2>{title}</h2>
             <p>{para}</p>
-            <Button id="feature_btn">More Info</Button>
+            <Button hero id="feature_btn">
+              More Info
+            </Button>
           </div>
         </div>{" "}
       </Fade>
