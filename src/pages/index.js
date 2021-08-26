@@ -69,6 +69,14 @@ function Home() {
           />
         </div>
       </section>
+      <section id="faq">
+        <h2 id="faq_title"> Frerquently Asked Questions</h2>
+        <p id="faq_des">
+          This application easy in using. All you need is to insert your
+          ‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’
+          values. Also you can click the button to copy result.
+        </p>
+      </section>
       <h1 style={{ fontSize: "60px", textAlign: "center" }}>
         Still Coding...!
       </h1>
