@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "../components/Button";
+import FeaturesBox from "../components/FeaturesBox/FeaturesBox";
 import Header from "../components/Header/Header";
 import HeroPic from "../images/illustration-hero.svg";
 import "../styles/Home.css";
@@ -34,6 +35,8 @@ function Home() {
         </p>
         <div id="features_box"></div>
       </section>
+      <FeaturesBox />
+
       <h1 style={{ fontSize: "60px", textAlign: "center" }}>
         Still Coding...!
       </h1>

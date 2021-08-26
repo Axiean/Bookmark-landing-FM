@@ -1,0 +1,58 @@
+#feature_box {
+  width: 100%;
+  background-color: rgb(175, 175, 175);
+  height: 600px;
+}
+#radiobtn_box {
+  width: 60vw;
+  background-color: burlywood;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.493);
+}
+#feature_box #radiobtn_box input {
+  display: none;
+}
+#feature_box #radiobtn_box input:checked + label {
+  color: aquamarine;
+}
+#feature_box #radiobtn_box label {
+  padding: 1vw 0;
+  text-align: center;
+  width: 33%;
+  color: rgb(88, 88, 88);
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+  /* border-bottom: 3px solid red; */
+}
+#feature_box #features_container {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(204, 222, 223);
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 6vw 4vw 0 13vw;
+}
+#feature_pic {
+}
+#feature_info {
+  width: 40vw;
+  background-color: aquamarine;
+}
+#feature_info h2 {
+  font-size: 3vw;
+  letter-spacing: 1px;
+  margin-top: 5vw;
+}
+#feature_info p {
+  font-size: 1.2vw;
+  color: rgb(110, 110, 110);
+  line-height: 1.6vw;
+  margin: auto;
+  margin-top: 2vw;
+}
+#feature_info #feature_btn {
+  margin-top: 3vw;
+}
