@@ -16,7 +16,7 @@ function FeaturesBox() {
   var para = "";
   switch (pic) {
     case FPic1:
-      title = "Simple Bookmarking";
+      title = "Bookmark in one click";
       para =
         "This application easy in using. All you need is to insert your‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’values. Also you can click the button to copy result.";
       break;
@@ -39,7 +39,6 @@ function FeaturesBox() {
       <Fade>
         <div id="features_container">
           <img id="feature_pic" src={pic}></img>
-
           <div id="feature_info">
             <h2>{title}</h2>
             <p>{para}</p>
@@ -48,6 +47,7 @@ function FeaturesBox() {
             </Button>
           </div>
         </div>{" "}
+        <div id="feature_box_bg"></div>
       </Fade>
     );
   };

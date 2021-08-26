@@ -1,7 +1,9 @@
 #feature_box {
   width: 100%;
-  height: fit-content;
+  height: 100vh;
   margin-top: 4vw;
+  position: relative;
+  /* background-color: aqua; */
 }
 #radiobtn_box {
   width: 60vw;
@@ -41,6 +43,7 @@
 #feature_info {
   width: 40vw;
   height: fit-content;
+  text-align: left;
 }
 #feature_info h2 {
   font-size: 3vw;
@@ -56,4 +59,14 @@
 }
 #feature_info #feature_btn {
   margin-top: 3vw;
+}
+#feature_box_bg {
+  background-color: hsl(231, 69%, 60%);
+  width: 34vw;
+  height: 20vw;
+  position: absolute;
+  left: 0;
+  top: 55%;
+  border-radius: 0 100vw 100vw 0;
+  z-index: -1;
 }

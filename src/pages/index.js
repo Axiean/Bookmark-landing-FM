@@ -33,9 +33,9 @@ function Home() {
           ‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’
           values. Also you can click the button to copy result.
         </p>
-        <div id="features_box"></div>
+        {/* <div id="features_box"></div> */}
+        <FeaturesBox />
       </section>
-      <FeaturesBox />
 
       <h1 style={{ fontSize: "60px", textAlign: "center" }}>
         Still Coding...!
