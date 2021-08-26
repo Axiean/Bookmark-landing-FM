@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../images/logo-bookmark.svg";
+import { Button } from "../Button";
 import "./Header.css";
 function Header() {
   return (
@@ -20,7 +21,9 @@ function Header() {
               {" "}
               <a href="/"> CONTACT </a>{" "}
             </li>
-            <button id="loginBTN">login </button>
+            <Button head_foot id="loginBTN">
+              LOGIN{" "}
+            </Button>
           </ul>
         </nav>
       </div>
