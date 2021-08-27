@@ -12,16 +12,18 @@
   margin: auto;
   margin-top: 3vw;
 }
-
+.accardion1 {
+  background-color: aqua;
+}
 .accordion__item + .accordion__item {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.accordion__button {
+#panel1a-header {
   background-color: #ffffff;
   color: #444;
   cursor: pointer;
-  padding: 1.5vw;
+  /* padding: 1.5vw; */
   width: 100%;
   text-align: left;
   border: none;
