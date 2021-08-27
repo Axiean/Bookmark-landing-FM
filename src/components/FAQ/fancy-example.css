@@ -14,6 +14,7 @@
 }
 .accardion1 {
   box-shadow: none !important;
+  border-top: 1px rgb(219, 219, 219) solid;
 }
 
 #panel1a-header {

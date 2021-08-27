@@ -13,9 +13,10 @@ const useStyles = makeStyles((theme) => ({
     width: "45%",
     border: "none",
     margin: "auto",
-    marginTop: "3vw",
+    marginTop: "4vw",
     boxShadow: "none",
     outline: "none",
+    borderBottom: "1px rgb(219, 219, 219) solid",
   },
   heading: {
     fontSize: "1.3vw",
