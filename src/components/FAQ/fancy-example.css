@@ -16,7 +16,7 @@
   background-color: aqua;
 }
 .accordion__item + .accordion__item {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  /* border-top: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
 #panel1a-header {
@@ -56,10 +56,10 @@
   color: hsl(231, 69%, 60%);
 }
 
-.accordion__button[aria-expanded="true"]::after,
-.accordion__button[aria-selected="true"]::after {
+.arrowsvg [aria-expanded="true"] path,
+.arrowsvg [aria-selected="true"] path {
   transform: rotate(-135deg);
-  color: hsl(0, 94%, 66%);
+  stroke: hsl(0, 94%, 66%);
 }
 
 [hidden] {

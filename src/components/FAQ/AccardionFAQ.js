@@ -11,15 +11,17 @@ import "./fancy-example.css";
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "45%",
-    border: "1px solid rgba(0, 0, 0, 0.1)",
-    borderRadius: "2px",
-
+    border: "none",
     margin: "auto",
     marginTop: "3vw",
+    boxShadow: "none",
+    outline: "none",
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
+    borderRight: "none",
+    border: "none",
   },
 }));
 
@@ -39,7 +41,21 @@ export default function AccardionFAQ() {
       >
         <AccordionSummary
           className="accardion1"
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={
+            <svg
+              className="arrowsvg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="12"
+            >
+              <path
+                fill="none"
+                stroke={expanded === "panel1" ? "hsl(0, 94%, 66%)" : "#5267DF"}
+                stroke-width="3"
+                d="M1 1l8 8 8-8"
+              />
+            </svg>
+          }
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -59,7 +75,21 @@ export default function AccardionFAQ() {
         onChange={handleChange("panel2")}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={
+            <svg
+              className="arrowsvg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="12"
+            >
+              <path
+                fill="none"
+                stroke={expanded === "panel2" ? "hsl(0, 94%, 66%)" : "#5267DF"}
+                stroke-width="3"
+                d="M1 1l8 8 8-8"
+              />
+            </svg>
+          }
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
@@ -80,7 +110,21 @@ export default function AccardionFAQ() {
         onChange={handleChange("panel3")}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={
+            <svg
+              className="arrowsvg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="12"
+            >
+              <path
+                fill="none"
+                stroke={expanded === "panel3" ? "hsl(0, 94%, 66%)" : "#5267DF"}
+                stroke-width="3"
+                d="M1 1l8 8 8-8"
+              />
+            </svg>
+          }
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
@@ -101,7 +145,21 @@ export default function AccardionFAQ() {
         onChange={handleChange("panel4")}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={
+            <svg
+              className="arrowsvg"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="12"
+            >
+              <path
+                fill="none"
+                stroke={expanded === "panel4" ? "hsl(0, 94%, 66%)" : "#5267DF"}
+                stroke-width="3"
+                d="M1 1l8 8 8-8"
+              />
+            </svg>
+          }
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
