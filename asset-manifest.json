@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/Bookmark-landing-FM/static/css/main.a5affe3a.chunk.css",
-    "main.js": "/Bookmark-landing-FM/static/js/main.5226ca01.chunk.js",
-    "main.js.map": "/Bookmark-landing-FM/static/js/main.5226ca01.chunk.js.map",
+    "main.css": "/Bookmark-landing-FM/static/css/main.5bcee69f.chunk.css",
+    "main.js": "/Bookmark-landing-FM/static/js/main.3d3b6b94.chunk.js",
+    "main.js.map": "/Bookmark-landing-FM/static/js/main.3d3b6b94.chunk.js.map",
     "runtime-main.js": "/Bookmark-landing-FM/static/js/runtime-main.ba585c2a.js",
     "runtime-main.js.map": "/Bookmark-landing-FM/static/js/runtime-main.ba585c2a.js.map",
     "static/js/2.5de0d8f2.chunk.js": "/Bookmark-landing-FM/static/js/2.5de0d8f2.chunk.js",
     "static/js/2.5de0d8f2.chunk.js.map": "/Bookmark-landing-FM/static/js/2.5de0d8f2.chunk.js.map",
     "index.html": "/Bookmark-landing-FM/index.html",
-    "static/css/main.a5affe3a.chunk.css.map": "/Bookmark-landing-FM/static/css/main.a5affe3a.chunk.css.map",
+    "static/css/main.5bcee69f.chunk.css.map": "/Bookmark-landing-FM/static/css/main.5bcee69f.chunk.css.map",
     "static/js/2.5de0d8f2.chunk.js.LICENSE.txt": "/Bookmark-landing-FM/static/js/2.5de0d8f2.chunk.js.LICENSE.txt",
     "static/media/bg-dots.90f0b46c.svg": "/Bookmark-landing-FM/static/media/bg-dots.90f0b46c.svg",
+    "static/media/icon-facebook.8b45ba94.svg": "/Bookmark-landing-FM/static/media/icon-facebook.8b45ba94.svg",
+    "static/media/icon-twitter.dde79e7e.svg": "/Bookmark-landing-FM/static/media/icon-twitter.dde79e7e.svg",
     "static/media/illustration-features-tab-1.0da3d302.svg": "/Bookmark-landing-FM/static/media/illustration-features-tab-1.0da3d302.svg",
     "static/media/illustration-features-tab-2.e933bd6d.svg": "/Bookmark-landing-FM/static/media/illustration-features-tab-2.e933bd6d.svg",
     "static/media/illustration-features-tab-3.a4206aab.svg": "/Bookmark-landing-FM/static/media/illustration-features-tab-3.a4206aab.svg",
     "static/media/illustration-hero.07801d05.svg": "/Bookmark-landing-FM/static/media/illustration-hero.07801d05.svg",
     "static/media/logo-bookmark.d426263a.svg": "/Bookmark-landing-FM/static/media/logo-bookmark.d426263a.svg",
+    "static/media/logo-bookmark1.b662f10c.svg": "/Bookmark-landing-FM/static/media/logo-bookmark1.b662f10c.svg",
     "static/media/logo-chrome.a42815a0.svg": "/Bookmark-landing-FM/static/media/logo-chrome.a42815a0.svg",
     "static/media/logo-firefox.a9e6ca53.svg": "/Bookmark-landing-FM/static/media/logo-firefox.a9e6ca53.svg",
     "static/media/logo-opera.ff14e476.svg": "/Bookmark-landing-FM/static/media/logo-opera.ff14e476.svg"
@@ -23,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.ba585c2a.js",
     "static/js/2.5de0d8f2.chunk.js",
-    "static/css/main.a5affe3a.chunk.css",
-    "static/js/main.5226ca01.chunk.js"
+    "static/css/main.5bcee69f.chunk.css",
+    "static/js/main.3d3b6b94.chunk.js"
   ]
 }
