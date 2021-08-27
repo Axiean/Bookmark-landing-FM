@@ -1,0 +1,91 @@
+/**
+* ----------------------------------------------
+* Demo styles
+* ----------------------------------------------
+**/
+.accordion {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  border-right: none;
+  border-left: none;
+  width: 45%;
+  margin: auto;
+  margin-top: 3vw;
+}
+
+.accordion__item + .accordion__item {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion__button {
+  background-color: #ffffff;
+  color: #444;
+  cursor: pointer;
+  padding: 1.5vw;
+  width: 100%;
+  text-align: left;
+  border: none;
+  font-weight: 500;
+  font-size: 1.2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.accordion__button[aria-expanded="true"],
+.accordion__button[aria-selected="true"] {
+  color: hsl(0, 94%, 66%);
+}
+
+.accordion__button:hover {
+  background-color: #ddd;
+}
+
+/* this was before - i turned to after , to put it in the end of line */
+
+.accordion__button::after {
+  display: inline-block;
+  content: "";
+  height: 0.8vw;
+  width: 0.8vw;
+  margin-right: 2%;
+  border-bottom: 3px solid currentColor;
+  border-right: 3px solid currentColor;
+  transform: rotate(45deg);
+  transition: all ease-in 0.3s;
+  color: hsl(231, 69%, 60%);
+}
+
+.accordion__button[aria-expanded="true"]::after,
+.accordion__button[aria-selected="true"]::after {
+  transform: rotate(-135deg);
+  color: hsl(0, 94%, 66%);
+}
+
+[hidden] {
+  display: none;
+}
+
+.accordion__panel {
+  padding: 2vw;
+  font-size: 1.2vw;
+  color: rgb(110, 110, 110);
+  line-height: 1.6vw;
+  margin: auto;
+  /* margin-top: 2vw; */
+  animation: fadein 0.35s ease-in;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateY(-40%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

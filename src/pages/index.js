@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../components/Button";
 import DownloadCard from "../components/DownloadCards/DownloadCard";
+import AccardionFAQ from "../components/FAQ/AccardionFAQ";
 import FeaturesBox from "../components/FeaturesBox/FeaturesBox";
 import Header from "../components/Header/Header";
 import HeroPic from "../images/illustration-hero.svg";
@@ -73,10 +74,11 @@ function Home() {
         <h2 id="faq_title"> Frerquently Asked Questions</h2>
         <p id="faq_des">
           This application easy in using. All you need is to insert your
-          ‘viewport width’ and ‘size in px’ and tap ‘calculate’ your new ‘vw’
-          values. Also you can click the button to copy result.
+          ‘viewport width’ .
         </p>
+        <AccardionFAQ />
       </section>
+
       <h1 style={{ fontSize: "60px", textAlign: "center" }}>
         Still Coding...!
       </h1>
