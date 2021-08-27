@@ -13,10 +13,7 @@
   margin-top: 3vw;
 }
 .accardion1 {
-  background-color: aqua;
-}
-.accordion__item + .accordion__item {
-  /* border-top: 1px solid rgba(0, 0, 0, 0.1); */
+  box-shadow: none !important;
 }
 
 #panel1a-header {

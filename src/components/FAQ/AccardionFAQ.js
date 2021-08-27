@@ -18,7 +18,8 @@ const useStyles = makeStyles((theme) => ({
     outline: "none",
   },
   heading: {
-    fontSize: theme.typography.pxToRem(15),
+    fontSize: "1.3vw",
+    padding: "0.5vw",
     fontWeight: theme.typography.fontWeightRegular,
     borderRight: "none",
     border: "none",
@@ -38,9 +39,9 @@ export default function AccardionFAQ() {
       <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}
+        className="accardion1"
       >
         <AccordionSummary
-          className="accardion1"
           expandIcon={
             <svg
               className="arrowsvg"
@@ -59,7 +60,12 @@ export default function AccardionFAQ() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className="accardion1" className={classes.heading}>
+          <Typography
+            style={{
+              color: expanded === "panel1" ? "hsl(0, 94%, 66%)" : null,
+            }}
+            className={classes.heading}
+          >
             What is Bookmark?
           </Typography>
         </AccordionSummary>
@@ -71,6 +77,7 @@ export default function AccardionFAQ() {
         </AccordionDetails>
       </Accordion>
       <Accordion
+        className="accardion1"
         expanded={expanded === "panel2"}
         onChange={handleChange("panel2")}
       >
@@ -93,7 +100,12 @@ export default function AccardionFAQ() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>
+          <Typography
+            style={{
+              color: expanded === "panel2" ? "hsl(0, 94%, 66%)" : null,
+            }}
+            className={classes.heading}
+          >
             {" "}
             How can I request a new browser?
           </Typography>
@@ -106,6 +118,7 @@ export default function AccardionFAQ() {
         </AccordionDetails>
       </Accordion>
       <Accordion
+        className="accardion1"
         expanded={expanded === "panel3"}
         onChange={handleChange("panel3")}
       >
@@ -128,7 +141,12 @@ export default function AccardionFAQ() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>
+          <Typography
+            style={{
+              color: expanded === "panel3" ? "hsl(0, 94%, 66%)" : null,
+            }}
+            className={classes.heading}
+          >
             {" "}
             Is there a mobile app?
           </Typography>
@@ -141,6 +159,7 @@ export default function AccardionFAQ() {
         </AccordionDetails>
       </Accordion>
       <Accordion
+        className="accardion1"
         expanded={expanded === "panel4"}
         onChange={handleChange("panel4")}
       >
@@ -163,7 +182,12 @@ export default function AccardionFAQ() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>
+          <Typography
+            style={{
+              color: expanded === "panel4" ? "hsl(0, 94%, 66%)" : null,
+            }}
+            className={classes.heading}
+          >
             {" "}
             What about other Chromium browser ?
           </Typography>
