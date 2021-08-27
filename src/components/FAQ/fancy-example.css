@@ -68,10 +68,11 @@
   padding: 2vw;
   font-size: 1.2vw;
   color: rgb(110, 110, 110);
-  line-height: 1.6vw;
+  line-height: 1.7vw;
   margin: auto;
   /* margin-top: 2vw; */
   animation: fadein 0.35s ease-in;
+  text-align: left;
 }
 
 /* -------------------------------------------------- */
@@ -81,11 +82,11 @@
 @keyframes fadein {
   0% {
     opacity: 0;
-    transform: translateY(-40%);
+    transform: translatex(-40%);
   }
 
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translatex(0);
   }
 }

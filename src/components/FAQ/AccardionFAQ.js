@@ -13,9 +13,7 @@ export default function AccardionFAQ() {
     <Accordion allowZeroExpanded>
       <AccordionItem>
         <AccordionItemHeading>
-          <AccordionItemButton>
-            What harsh truths do you prefer to ignore?
-          </AccordionItemButton>
+          <AccordionItemButton>What is Bookmark?</AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
           <p>
@@ -28,7 +26,7 @@ export default function AccardionFAQ() {
       <AccordionItem>
         <AccordionItemHeading>
           <AccordionItemButton>
-            Is free will real or just an illusion?
+            How can I request a new browser?
           </AccordionItemButton>
         </AccordionItemHeading>
         <AccordionItemPanel>
@@ -36,6 +34,39 @@ export default function AccardionFAQ() {
             In ad velit in ex nostrud dolore cupidatat consectetur ea in ut
             nostrud velit in irure cillum tempor laboris sed adipisicing eu esse
             duis nulla non.
+            <br /> In ad velit in ex nostrud dolore cupidatat consectetur ea in
+            ut nostrud velit. <br /> in irure cillum tempor laboris sed
+            adipisicing eu esse duis nulla non.
+          </p>
+        </AccordionItemPanel>
+      </AccordionItem>
+      <AccordionItem>
+        <AccordionItemHeading>
+          <AccordionItemButton>Is there a mobile app?</AccordionItemButton>
+        </AccordionItemHeading>
+        <AccordionItemPanel>
+          <p>
+            In ad velit in ex nostrud dolore cupidatat consectetur ea in ut
+            nostrud velit in irure cillum tempor laboris sed adipisicing eu esse
+            duis nulla non.
+            <br /> In ad velit in ex nostrud dolore cupidatat consectetur ea in
+            ut nostrud velit in.
+          </p>
+        </AccordionItemPanel>
+      </AccordionItem>
+      <AccordionItem>
+        <AccordionItemHeading>
+          <AccordionItemButton>
+            What about other Chromium browser ?
+          </AccordionItemButton>
+        </AccordionItemHeading>
+        <AccordionItemPanel>
+          <p>
+            In ad velit in ex nostrud dolore cupidatat. <br /> consectetur ea in
+            ut nostrud velit in irure cillum tempor laboris sed adipisicing eu
+            esse duis nulla non. In ad velit in ex nostrud dolore cupidatat
+            consectetur ea in ut nostrud velit in. <br /> irure cillum tempor
+            laboris sed adipisicing eu esse duis nulla non.
           </p>
         </AccordionItemPanel>
       </AccordionItem>
