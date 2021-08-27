@@ -1,19 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "../Button";
 import Logo from "../../images/logo-bookmark1.svg";
 import Facebook from "../../images/icon-facebook.svg";
 import Twitter from "../../images/icon-twitter.svg";
 
 import "./Footer.css";
+
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
 function Footer() {
+  const [email, setEmail] = useState();
+
+  const emailHandler = (e) => {
+    setEmail(e.target.value);
+  };
+  const emailSubmit = (e) => {
+    e.preventDefault();
+
+    if (email.match(mailformat)) {
+      alert("yes");
+      return;
+    } else {
+      alert("wrong");
+    }
+  };
+
   return (
     <footer id="footer">
       <div id="contact">
         <h3>35,000 ALREADY JOINED</h3>
         <h2>Stay up-to-date with what we are doing</h2>
         <div id="enter_box">
-          <input placeholder="Enter your Email..." type="email" />
-          <Button head_foot id="enter_email_btn">
+          <input
+            onChange={emailHandler}
+            value={email}
+            placeholder="Enter your Email..."
+            type="email"
+          />
+          <Button onClick={emailSubmit} head_foot id="enter_email_btn">
             Contact Us
           </Button>
         </div>
