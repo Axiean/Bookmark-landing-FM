@@ -77,6 +77,9 @@ function Home() {
           ‘viewport width’ .
         </p>
         <AccardionFAQ />
+        <Button hero id="faq_btn">
+          More Info
+        </Button>
       </section>
 
       <h1 style={{ fontSize: "60px", textAlign: "center" }}>
