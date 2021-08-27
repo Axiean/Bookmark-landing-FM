@@ -1,0 +1,102 @@
+#footer {
+  width: 100%;
+  height: fit-content;
+  margin-top: 10vw;
+}
+#footer #contact {
+  width: 100%;
+  padding-top: 4vw;
+  padding-bottom: 2.8vw;
+  background-color: hsl(231, 69%, 60%);
+  text-align: center;
+}
+#footer #contact h3 {
+  font-size: 0.9vw;
+  letter-spacing: 0.3vw;
+  color: rgb(238, 238, 238);
+  font-weight: 400;
+}
+#footer #contact h2 {
+  font-size: 2.3vw;
+  margin: auto;
+  width: 35%;
+  letter-spacing: 0.1vw;
+  color: rgb(238, 238, 238);
+  margin-top: 3.5vw;
+  font-weight: 500;
+}
+#footer #contact #enter_box {
+  width: 36%;
+  margin: auto;
+  margin-top: 2.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#enter_email_btn:hover {
+  background-color: white;
+}
+#footer #contact #enter_box input {
+  width: 66%;
+  /* depends on button sizes */
+  font-size: 1.111vw;
+  padding: 1vw 2vw;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 0.09vw;
+  transition: all ease-in-out 0.2s;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+#footer #contact #enter_box input:focus {
+  border: none;
+  outline: none;
+  transform: scale(1.05);
+}
+#footer_part2 {
+  width: 100%;
+  padding: 2.1vw 8vw;
+  background-color: hsl(229, 31%, 21%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#logo_footer {
+  width: 11vw;
+  cursor: pointer;
+  color: aliceblue;
+}
+#navbar_footer {
+  margin-right: 20vw;
+}
+
+.navItems_footer {
+  display: inline-block;
+  margin-left: 5vw;
+  list-style-type: none;
+}
+.navItems_footer a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.111vw;
+  color: rgb(233, 233, 233);
+  transition: all ease-in-out 0.2s;
+}
+.navItems_footer a:hover {
+  color: hsl(0, 94%, 66%);
+}
+#social {
+  margin-right: 5vw;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#social svg {
+  cursor: pointer;
+}
+#social svg path {
+  transition: all ease-in-out 0.3s;
+}
+#social svg:hover path {
+  fill: hsl(0, 94%, 66%);
+}

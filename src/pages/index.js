@@ -3,6 +3,7 @@ import { Button } from "../components/Button";
 import DownloadCard from "../components/DownloadCards/DownloadCard";
 import AccardionFAQ from "../components/FAQ/AccardionFAQ";
 import FeaturesBox from "../components/FeaturesBox/FeaturesBox";
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import HeroPic from "../images/illustration-hero.svg";
 import Chrome from "../images/logo-chrome.svg";
@@ -82,9 +83,7 @@ function Home() {
         </Button>
       </section>
 
-      <h1 style={{ fontSize: "60px", textAlign: "center" }}>
-        Still Coding...!
-      </h1>
+      <Footer />
     </div>
   );
 }
